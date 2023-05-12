@@ -53,7 +53,7 @@ const config = {
         //title: 'Filesonic User Manual',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/filesoniclogo.svg',
+          src: 'img/filelogo.svg',
         },
         items: [
           {

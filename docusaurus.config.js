@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        //title: 'Filesonic User Manual',
+        //title: 'Filesonic Manual',
         logo: {
           alt: 'My Site Logo',
           src: 'img/filelogo.svg',

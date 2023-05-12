@@ -6,18 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NFBoost User Manual',
+  title: 'Filesonic User Manual',
   tagline: 'Dinosaurs are cool',
   url: 'https://venture-miner.github.io',
-  baseUrl: '/nfboost-user-manual/',
+  baseUrl: '/filesonic-user-manual/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/filesonic.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Venture-Miner', // Usually your GitHub org/user name.
-  projectName: 'nfboost-user-manual', // Usually your repo name.
+  projectName: 'filesonic-user-manual', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://venture-miner.github.io/nfboost-user-manual',
+            'https://venture-miner.github.io/filesonic-user-manual',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,20 +50,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        //title: 'NFBoost Backoffice',
+        //title: 'Filesonic User Manual',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/filesoniclogo.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'NFBoost Manual',
+            label: 'Filesonic Manual',
           },
           {
-            href: 'https://github.com/Venture-Miner/nfboost-user-manual',
+            href: 'https://github.com/Venture-Miner/filesonic-user-manual',
             label: 'GitHub',
             position: 'right',
           },
